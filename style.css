@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: Blue;
+    border: 1px solid black;
+    margin: 50px auto;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#bkdColor{
+    background-color: black;
+    color: white;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+#color{
+    color: blue;
+}
+
+#btn{
+    background-color: red;
+    font-size: large;
+    padding: 5px;
+}
